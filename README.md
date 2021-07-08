@@ -1,3 +1,3 @@
 # RippleView
 
-A description of this package.
+A simple Ripple animation view in SwiftUI.
