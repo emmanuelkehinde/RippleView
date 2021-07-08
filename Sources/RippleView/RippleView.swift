@@ -23,7 +23,7 @@ public struct RippleView: View {
      - Parameters:
         - style: The chosen ripple style, defaults to `solid`
         - rippleCount: The number of ripples to display, defaults to `5`
-        - tintColor: The color to tint the riple with, defaults to `black`
+        - tintColor: The color to tint the ripples with, defaults to `black`
         - timeIntervalBetweenRipples: The expected time interval between each ripple display, defaults to `0.13`
         - shouldAnimate: A binding that tells if animation should begin or not, defaults to `true`
      */
