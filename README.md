@@ -11,12 +11,12 @@ A simple Ripple animation view in SwiftUI.
 <tr>
 <td>
 
-<img src=https://raw.githubusercontent.com/emmanuelkehinde/RippleView/main/Media/solid.gif width=400 align="right" />
+<img src=https://raw.githubusercontent.com/emmanuelkehinde/RippleView/main/Media/solid.gif width=400 align="center" />
 
 </td>
 <td>
 
-<img src=https://raw.githubusercontent.com/emmanuelkehinde/RippleView/main/Media/outlined.gif width=400 align="right" />
+<img src=https://raw.githubusercontent.com/emmanuelkehinde/RippleView/main/Media/outlined.gif width=400 align="center" />
 
 </td>
 </tr>
@@ -65,5 +65,8 @@ Available parameters include:
 - *tintColor*: The color to tint the ripples with, defaults to `black`
 - *timeIntervalBetweenRipples*: The expected time interval between each ripple display, defaults to `0.13`
 - *shouldAnimate*: A binding that tells if animation should begin or not, defaults to `true`
+
+### Blog Post
+https://emmanuelkehinde.io/how-to-control-the-display-order-of-overlapping-views-in-swiftui/
 
 Enjoy 🚀
