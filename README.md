@@ -2,6 +2,36 @@
 
 A simple Ripple animation view in SwiftUI.
 
+
+<table>
+<tr>
+<th> solid </th>
+<th> outlined </th>
+</tr>
+<tr>
+<td>
+
+<img src=https://raw.githubusercontent.com/emmanuelkehinde/RippleView/main/Media/solid.gif width=400 align="right" />
+
+</td>
+<td>
+
+<img src=https://raw.githubusercontent.com/emmanuelkehinde/RippleView/main/Media/outlined.gif width=400 align="right" />
+
+</td>
+</tr>
+</table>
+
+## Installation
+
+Here is how to integrate the library into your iOS project.
+
+### Swift Package Manager
+
+- File > Swift Packages > Add Package Dependency
+- Add `https://github.com/emmanuelkehinde/RippleView.git`
+- Select "Up to Next Major Version" with "1.0.2"
+
 ## Basic Usage
 
 Place the `RippleView` anywhere you want it to appear in your SwiftUI View.
