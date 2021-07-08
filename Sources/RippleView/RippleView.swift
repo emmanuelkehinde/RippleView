@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// A view that shows Ripple animation based on the style defined
 public struct RippleView: View {
     @State private var currentStep: Int = -1
     @State private var timer: Timer?
@@ -16,6 +17,16 @@ public struct RippleView: View {
     private var tintColor: Color
     private var timeIntervalBetweenRipples: Double
 
+    /**
+     Creates an instance with the given parameters
+
+     - Parameters:
+        - style: The chosen ripple style, defaults to `solid`
+        - rippleCount: The number of ripples to display, defaults to `5`
+        - tintColor: The color to tint the riple with, defaults to `black`
+        - timeIntervalBetweenRipples: The expected time interval between each ripple display, defaults to `0.13`
+        - shouldAnimate: A binding that tells if animation should begin or not, defaults to `true`
+     */
     public init(
         style: Style = .solid,
         rippleCount: Int = 5,
@@ -103,6 +114,9 @@ public struct RippleView: View {
         timer = nil
     }
 
+    /// The available Ripple styles
+    ///
+    /// Value is passed during initialization
     public enum Style {
         case solid
         case outlined
