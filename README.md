@@ -67,6 +67,6 @@ Available parameters include:
 - *shouldAnimate*: A binding that tells if animation should begin or not, defaults to `true`
 
 ### Blog Post
-https://emmanuelkehinde.io/how-to-control-the-display-order-of-overlapping-views-in-swiftui/
+https://emmanuelkehinde.io/swiftui-building-a-reusable-ripple-animation-view-swift-package/
 
 Enjoy 🚀
